@@ -37,6 +37,13 @@ content {
   margin: auto 20px;
 }
 
+.landing-info {
+  padding: 50px;
+}
+.landing-info:nth-child(odd) {
+  background: lightgray;
+}
+
 footer {
   background: lightgray;
   padding: 20px;
