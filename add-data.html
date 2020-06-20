@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header id="hero">
+    <h1>Encyclo•Bestiary</h1>
+    <p>A World-Building Organizational Resource</p>
+  </header>
+  <nav id="nav">
+    <ul id="account-access">
+      <li><a href="./profile.html"><button>My Account</button></a></li>
+    </ul>
+    <ul id="page-nav">
+      <li><a href="./index.html">HOME</a></li>
+      <li><a href="./browse.html">BROWSE</a></li>
+    </ul>
+  </nav>
+  <content id="bestiary-profile">
+    <section id="bestiary-menu">
+      <h2>New Data</h2>
+      <p>Fill out the input fields you determined when creating this bestiary</p>
+    </section>
+    <form id="create-bestiary">
+      
+      <div class="newField">
+        <h4>Image URL</h4>
+        <input
+          type="text"
+          placeholder="Fill out this field"
+        />
+        <button>Clear</button>
+      </div>
+      <div class="newField">
+        <h4>Name</h4>
+        <input
+          type="text"
+          placeholder="Fill out this field"
+        />
+        <button>Clear</button>
+      </div>
+      <div class="newField">
+        <h4>Region</h4>
+        <select>
+          <option>Forest</option>
+          <option>Volcano</option>
+          <option>Arctic</option>
+          <option>Cave</option>
+          <option>Desert</option>
+        </select>
+
+        <button>Clear</button>
+      </div>
+      <div class="newField">
+        <h4>Height</h4>
+        <input
+          type="number"
+          placeholder="Fill out this field"
+        />
+        <button>Clear</button>
+      </div>
+      <div class="newField">
+        <h4>Weight</h4>
+        <input
+          type="number"
+          placeholder="Fill out this field"
+        />
+        <button>Clear</button>
+      </div>
+
+      <br>
+
+      <input type="submit" />
+    </form>
+  </content>
+  <footer>
+    Footer
+  </footer>
+</body>
+</html>

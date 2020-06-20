@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header id="hero">
+    <h1>Encyclo•Bestiary</h1>
+    <p>A World-Building Organizational Resource</p>
+  </header>
+  <nav id="nav">
+    <ul id="account-access">
+      <li><a href="./profile.html"><button>My Account</button></a></li>
+    </ul>
+    <ul id="page-nav">
+      <li><a href="./index.html">HOME</a></li>
+      <li><a href="./browse.html">BROWSE</a></li>
+    </ul>
+  </nav>
+  <content id="bestiary-profile">
+    <section id="bestiary-menu">
+      <h2>New Bestiary</h2>
+      <img src="https://via.placeholder.com/150?text=Add+Img" />
+      <p>Construct a template for all elements built within this folder to follow</p>
+    </section>
+    <form id="create-bestiary">
+      <label for="collection-name">Bestiary Name:</label>
+      <input type="text" id="collection-name" name="collection-name" />
+
+      <br>
+
+      
+      <select>
+        <option>--Add the following:</option>
+        <option>Short Text</option>
+        <option>Long Text</option>
+        <option>Image</option>
+        <option>Number (solid)</option>
+        <option>Number (range)</option>
+        <option>Selection</option>
+      </select>
+      <button>+ Field</button>
+
+      <br>
+
+      <div class="newField">
+        <h4>Short Text</h4>
+        <input
+          type="text"
+          placeholder="Name this field"
+        />
+        <button>Remove</button>
+      </div>
+      <div class="newField">
+        <h4>Long Text</h4>
+        <input
+          type="text"
+          placeholder="Name this field"
+        />
+        <button>Remove</button>
+      </div>
+      <div class="newField">
+        <h4>Short Text</h4>
+        <input
+          type="text"
+          placeholder="Name this field"
+        />
+        <button>Remove</button>
+      </div>
+      <div class="newField">
+        <h4>Short Text</h4>
+        <input
+          type="text"
+          placeholder="Name this field"
+        />
+        <button>Remove</button>
+      </div>
+      <div class="newField">
+        <h4>Number (Solid)</h4>
+        <input
+          type="text"
+          placeholder="Name this field"
+        />
+        <button>Remove</button>
+      </div>
+      <div class="newField">
+        <h4>Number (Range)</h4>
+        <input
+          type="text"
+          placeholder="Name this field"
+        />
+        <div>
+          <label>Min</label>
+          <input type="number"/>
+          <label>Max</label>
+          <input type="number"/>
+        </div>
+        <button>Remove</button>
+      </div>
+      <div class="newField">
+        <h4>List</h4>
+        <input
+          type="text"
+          placeholder="Name this field"
+        />
+        <div>
+          <label>Link from one of your other bestiaries:</label>
+          <select>
+            <option>Your Bestiary 1</option>
+            <option>Your Bestiary 2</option>
+            <option>Your Bestiary 3</option>
+          </select>
+        </div>
+        <button>Remove</button>
+      </div>
+
+
+      <br>
+
+      <input type="submit" />
+    </form>
+  </content>
+  <footer>
+    Footer
+  </footer>
+</body>
+</html>
